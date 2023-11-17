@@ -36,6 +36,9 @@
 		036B6BC32B075433007B5964 /* tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 036B6BAD2B075433007B5964 /* tranquility.mp3 */; };
 		036B6BC42B075433007B5964 /* Sleepless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 036B6BAE2B075433007B5964 /* Sleepless.mp3 */; };
 		036B6BC62B0756BA007B5964 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */; };
+		036B6BC92B075D0F007B5964 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6BC82B075D0F007B5964 /* Track.swift */; };
+		036B6BCB2B075D57007B5964 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6BCA2B075D57007B5964 /* TrackManager.swift */; };
+		036B6BD02B076151007B5964 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6BCF2B076151007B5964 /* Extension+AVPlayerItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,9 @@
 		036B6BAD2B075433007B5964 /* tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tranquility.mp3; sourceTree = "<group>"; };
 		036B6BAE2B075433007B5964 /* Sleepless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sleepless.mp3; sourceTree = "<group>"; };
 		036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		036B6BC82B075D0F007B5964 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		036B6BCA2B075D57007B5964 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		036B6BCF2B076151007B5964 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +110,8 @@
 			children = (
 				036B6B822B0753FA007B5964 /* AppDelegate.swift */,
 				036B6B842B0753FA007B5964 /* SceneDelegate.swift */,
-				036B6B962B07540F007B5964 /* HomeViewController.swift */,
-				036B6B882B0753FA007B5964 /* Main.storyboard */,
-				036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */,
+				036B6BC72B075CFA007B5964 /* Home */,
+				036B6BCC2B075D74007B5964 /* Track */,
 				036B6B8B2B0753FD007B5964 /* Assets.xcassets */,
 				036B6B8D2B0753FD007B5964 /* LaunchScreen.storyboard */,
 				036B6B902B0753FD007B5964 /* Info.plist */,
@@ -142,6 +147,26 @@
 				036B6BAE2B075433007B5964 /* Sleepless.mp3 */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		036B6BC72B075CFA007B5964 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				036B6B962B07540F007B5964 /* HomeViewController.swift */,
+				036B6B882B0753FA007B5964 /* Main.storyboard */,
+				036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		036B6BCC2B075D74007B5964 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				036B6BC82B075D0F007B5964 /* Track.swift */,
+				036B6BCA2B075D57007B5964 /* TrackManager.swift */,
+				036B6BCF2B076151007B5964 /* Extension+AVPlayerItem.swift */,
+			);
+			path = Track;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				036B6BC62B0756BA007B5964 /* TrackCollectionViewCell.swift in Sources */,
+				036B6BD02B076151007B5964 /* Extension+AVPlayerItem.swift in Sources */,
+				036B6BCB2B075D57007B5964 /* TrackManager.swift in Sources */,
+				036B6BC92B075D0F007B5964 /* Track.swift in Sources */,
 				036B6B832B0753FA007B5964 /* AppDelegate.swift in Sources */,
 				036B6B852B0753FA007B5964 /* SceneDelegate.swift in Sources */,
 				036B6B972B07540F007B5964 /* HomeViewController.swift in Sources */,
@@ -318,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -375,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
