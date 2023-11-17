@@ -35,6 +35,7 @@
 		036B6BC22B075433007B5964 /* i fell in love with you one night in september..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 036B6BAC2B075433007B5964 /* i fell in love with you one night in september..mp3 */; };
 		036B6BC32B075433007B5964 /* tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 036B6BAD2B075433007B5964 /* tranquility.mp3 */; };
 		036B6BC42B075433007B5964 /* Sleepless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 036B6BAE2B075433007B5964 /* Sleepless.mp3 */; };
+		036B6BC62B0756BA007B5964 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		036B6BAC2B075433007B5964 /* i fell in love with you one night in september..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i fell in love with you one night in september..mp3"; sourceTree = "<group>"; };
 		036B6BAD2B075433007B5964 /* tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tranquility.mp3; sourceTree = "<group>"; };
 		036B6BAE2B075433007B5964 /* Sleepless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sleepless.mp3; sourceTree = "<group>"; };
+		036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				036B6B842B0753FA007B5964 /* SceneDelegate.swift */,
 				036B6B962B07540F007B5964 /* HomeViewController.swift */,
 				036B6B882B0753FA007B5964 /* Main.storyboard */,
+				036B6BC52B0756BA007B5964 /* TrackCollectionViewCell.swift */,
 				036B6B8B2B0753FD007B5964 /* Assets.xcassets */,
 				036B6B8D2B0753FD007B5964 /* LaunchScreen.storyboard */,
 				036B6B902B0753FD007B5964 /* Info.plist */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036B6BC62B0756BA007B5964 /* TrackCollectionViewCell.swift in Sources */,
 				036B6B832B0753FA007B5964 /* AppDelegate.swift in Sources */,
 				036B6B852B0753FA007B5964 /* SceneDelegate.swift in Sources */,
 				036B6B972B07540F007B5964 /* HomeViewController.swift in Sources */,
